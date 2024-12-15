@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Zamowienia</string>
+
+    <string-array name="pcNames">
+        <item>Super Ultra Komputer</item>
+        <item>Super Ultra Komputer PRO</item>
+        <item>Super Ultra Komputer PROX</item>
+        <item>Komputer Gamingowy GAMEX</item>
+        <item>Komputer Gamingowy GAMEX PRO</item>
+        <item>Komputer ELITE PRO</item>
+    </string-array>
+
+    <string-array name="pc_description">
+        <item>Procesor Intel Core i5–13400F, karta graficzna NVIDIA GTX 1660, 16 GB RAM, dysk SSD 512 GB.</item>
+        <item>Procesor Intel Core i7–13700F, karta graficzna NVIDIA RTX 3060, 16 GB RAM, dysk SSD 1 TB.</item>
+        <item>Procesor Intel Core i9–13900K, karta graficzna NVIDIA RTX 4090, 32 GB RAM, dysk SSD NVMe 2 TB.</item>
+        <item>Procesor AMD Ryzen 5 5600X, karta graficzna AMD Radeon RX 6700 XT, 16 GB RAM, dysk SSD 1 TB.</item>
+        <item>Procesor AMD Ryzen 7 5800X, karta graficzna NVIDIA RTX 4070, 32 GB RAM, dysk SSD NVMe 1 TB.</item>
+        <item>Procesor AMD Ryzen 9 7950X, karta graficzna NVIDIA RTX 4080, 64 GB RAM, dysk SSD NVMe 4 TB.</item>
+    </string-array>
+
+</resources>

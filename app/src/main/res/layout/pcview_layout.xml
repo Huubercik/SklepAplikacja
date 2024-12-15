@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp">
+    
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <TextView
+        android:id="@+id/pc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="140sp"
+        android:layout_height="140dp"
+        android:layout_below="@id/pc_name" />
+
+    <TextView
+        android:id="@+id/pc_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture"/>
+    
+    <TextView
+        android:id="@+id/pc_description"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_toEndOf="@id/picture"
+        android:layout_below="@id/pc_name"
+        android:textSize="20sp"
+        android:autoSizeTextType="uniform"/>
+
+
+    <TextView
+        android:id="@+id/dodatki_tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DODATKI"
+        android:layout_below="@id/pc_price" />
+
+    <CheckBox
+        android:id="@+id/chbox_myszka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Myszka"
+        android:layout_below="@id/dodatki_tekst"/>
+    <Spinner
+        android:id="@+id/spinner_myszka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chbox_myszka"/>
+
+    <CheckBox
+        android:id="@+id/chbox_klawiatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klawiatura"
+        android:layout_below="@id/spinner_myszka"/>
+    <Spinner
+        android:id="@+id/spinner_klawiatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chbox_klawiatura"/>
+
+    <CheckBox
+        android:id="@+id/chbox_sluchawki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Sluchawki"
+        android:layout_below="@id/spinner_klawiatura"/>
+    <Spinner
+        android:id="@+id/spinner_sluchawki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chbox_sluchawki"/>
+    <TextView
+        android:id="@+id/cena_tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_sluchawki"
+        android:text="CENA"/>
+
+    <EditText
+        android:id="@+id/customerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cena_tekst"
+        android:hint="Podaj imie"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Zlow zamowienie"
+        android:layout_below="@id/customerName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>

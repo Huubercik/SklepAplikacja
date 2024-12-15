@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:id="@+id/namePC"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="35sp"
+        android:autoSizeTextType="uniform"/>
+    <TextView
+        android:id="@+id/pcDescription"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/namePC"
+        android:textSize="35sp"
+        android:autoSizeTextType="uniform"/>
+    <TextView
+        android:id="@+id/PCprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cena: "
+        android:textSize="20sp"
+        android:layout_below="@id/pcDescription"/>
+
+</RelativeLayout>

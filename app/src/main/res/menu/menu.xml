@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/order_list"
+        android:title="Lista zamówień">
+    </item>
+    <item
+        android:id="@+id/send_by_sms"
+        android:title="Wyślij SMS">
+    </item>
+    <item
+        android:id="@+id/share"
+        android:title="Udostępnij">
+    </item>
+    <item
+        android:id="@+id/change_language"
+        android:title="Zapisz ustawienia">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:title="O programie">
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Wyloguj">
+    </item>
+</menu>
