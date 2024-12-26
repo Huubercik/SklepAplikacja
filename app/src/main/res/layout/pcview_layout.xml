@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_primary"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbarColor"
+            app:titleTextColor="@color/text_primary"
+            app:subtitleTextColor="@color/text_primary"/>
+
+        <TextView
+            android:id="@+id/pc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/image_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pc_name"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/background_secondary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/picture"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/pc_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:textSize="16sp"
+                    android:padding="16dp"
+                    android:textColor="@color/black"
+                    android:autoSizeTextType="uniform"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/pc_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_card"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:id="@+id/dodatki_tekst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/extras_text"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:layout_below="@id/pc_price"
+            android:layout_marginStart="16dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/extras_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dodatki_tekst"
+            android:layout_margin="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="@color/background_secondary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                >
+
+                <CheckBox
+                    android:id="@+id/chbox_myszka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mouse_text"
+                    android:textColor="@color/text_secondary"/>
+
+                <Spinner
+                    android:id="@+id/spinner_myszka"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="8dp" />
+
+                <CheckBox
+                    android:id="@+id/chbox_klawiatura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/keyboard_text"
+                    android:textColor="@color/text_secondary"/>
+                <Spinner
+                    android:id="@+id/spinner_klawiatura"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="8dp"/>
+
+                <CheckBox
+                    android:id="@+id/chbox_sluchawki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/headphones_text"
+                    android:textColor="@color/text_secondary"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sluchawki"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="8dp"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/cena_tekst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/extras_card"
+            android:text="@string/total_price_text"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:layout_margin="16dp" />
+
+        <EditText
+            android:id="@+id/customerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customer_name_text"
+            android:textColorHint="#757575"
+            android:textColor="@color/text_primary"
+            android:layout_below="@id/cena_tekst"
+            android:layout_margin="16dp"/>
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orderBtn"
+            android:layout_alignParentBottom="true"
+            android:padding="12dp"
+            android:textSize="16sp"
+            app:cornerRadius="8dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@android:color/white"
+            android:layout_margin="16dp"
+            android:layout_below="@id/customerName"/>
+
+    </RelativeLayout>
+
+</ScrollView>

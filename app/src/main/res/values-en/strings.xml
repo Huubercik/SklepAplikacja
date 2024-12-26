@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="registerBtn">Register</string>
+    <string name="choosePC_text">Choose PC</string>
+    <string name="make_acc_text">Make an account!</string>
+    <string name="price_text">Price:</string>
+    <string name="extras_text">EXTRAS</string>
+    <string name="mouse_text">Mouse</string>
+    <string name="keyboard_text">Keyboard</string>
+    <string name="headphones_text">Headphones</string>
+    <string name="total_price_text">TOTAL PRICE</string>
+    <string name="customer_name_text">Your name</string>
+    <string name="orderBtn">Make an order</string>
+    <string name="list_of_orders_text">List of orders</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="share">Share</string>
+    <string name="change_language">Change language</string>
+    <string name="about">About program</string>
+    <string name="log_out">Log out</string>
+    <string name="hello_text">Hello!</string>
+
+    <string name="login_successful">Login successful</string>
+    <string name="login_error">Error: Failed to fetch user data</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="order_number">Order %1$d: %2$s, Customer: %3$s, Date: %4$s</string>
+    <string name="register_error">Complete all fields</string>
+    <string name="register_successful">Registration completed successfully</string>
+    <string name="loginInfo">You are not logged in!</string>
+    <string name="order_nr_info">Order nr</string>
+    <string name="baseLastOrder">No last order</string>
+    <string name="noDate">Unknown date</string>
+    <string name="lastOrder">Last order:</string>
+    <string name="totalPrice">Total price</string>
+    <string name="orderDate">Order date</string>
+    <string name="smsError">Cannot open app to send sms</string>
+    <string name="aboutApp">About app</string>
+    <string name="aboutAppMessage">Order app as a project for Programowanie Aplikacji Mobilnych</string>
+    <string name="logoutMessage">Logout successful</string>
+    <string name="chooseSpinner">Choose…</string>
+    <string name="provideName">Please provide a name</string>
+    <string name="orderInfo">Order has been placed!</string>
+
+</resources>

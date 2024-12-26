@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Zamowienia</string>
+    <string name="username">Nazwa użytkownika</string>
+    <string name="password">Hasło</string>
+    <string name="loginBtn">Zaloguj</string>
+    <string name="registerBtn">Rejestracja</string>
+    <string name="choosePC_text">Wybierz komputer</string>
+    <string name="make_acc_text">Utworz konto!</string>
+    <string name="price_text">Cena:</string>
+    <string name="extras_text">DODATKI</string>
+    <string name="mouse_text">Myszka</string>
+    <string name="keyboard_text">Klawiatura</string>
+    <string name="headphones_text">Słuchawki</string>
+    <string name="total_price_text">CENA CAŁKOWITA</string>
+    <string name="customer_name_text">Podaj imię</string>
+    <string name="orderBtn">Złóż zamówienie</string>
+    <string name="list_of_orders_text">Lista zamówień</string>
+    <string name="send_sms">Wyślij SMS</string>
+    <string name="share">Udostępnij</string>
+    <string name="change_language">Zmień język</string>
+    <string name="about">O programie</string>
+    <string name="log_out">Wyloguj</string>
+    <string name="hello_text">Witaj!</string>
+
+    <string name="login_successful">Logowanie pomyślne</string>
+    <string name="login_error">Błąd: Nie udało się pobrać danych użytkownika</string>
+    <string name="invalid_credentials">Błędne dane logowania</string>
+    <string name="order_number">Zamówienie %1$d: %2$s, Klient: %3$s, Data: %4$s</string>
+
+    <string name="register_error">Uzupełnij wszystkie pola</string>
+    <string name="register_successful">Rrejestracja zakończona pomyślnie</string>
+
+    <string name="loginInfo">Nie jesteś zalogowany!</string>
+
+    <string name="order_nr_info">Zamówienie nr </string>
+
+    <string name="baseLastOrder">Brak ostatniego zamówienia.</string>
+    <string name="noDate">Nieznana data.</string>
+    <string name="lastOrder">Ostatnie zamówienie:</string>
+    <string name="totalPrice">Cena całkowita</string>
+    <string name="orderDate">Data zamówienia</string>
+    <string name="smsError">Nie można otworzyć aplikacji do wysylania sms</string>
+    <string name="aboutApp">O programie</string>
+    <string name="aboutAppMessage">Aplikacja zamowienia jako projekt na Programowanie Apliacji Mobilnych</string>
+    <string name="logoutMessage">Wylogowano pomyślnie</string>
+
+
+    <string name="chooseSpinner">Wybierz…</string>
+    <string name="provideName">Prosze podac imię</string>
+    <string name="orderInfo">Zamówienie zostało złożone!</string>
+
+
+    <string-array name="pcNames">
+        <item>Super Ultra Komputer</item>
+        <item>Super Ultra Komputer PRO</item>
+        <item>Super Ultra Komputer PROX</item>
+        <item>Komputer Gamingowy GAMEX</item>
+        <item>Komputer Gamingowy GAMEX PRO</item>
+        <item>Komputer ELITE PRO</item>
+    </string-array>
+
+    <string-array name="pc_description">
+        <item>Procesor Intel Core i5–13400F, karta graficzna NVIDIA GTX 1660, 16 GB RAM, dysk SSD 512 GB.</item>
+        <item>Procesor Intel Core i7–13700F, karta graficzna NVIDIA RTX 3060, 16 GB RAM, dysk SSD 1 TB.</item>
+        <item>Procesor Intel Core i9–13900K, karta graficzna NVIDIA RTX 4090, 32 GB RAM, dysk SSD NVMe 2 TB.</item>
+        <item>Procesor AMD Ryzen 5 5600X, karta graficzna AMD Radeon RX 6700 XT, 16 GB RAM, dysk SSD 1 TB.</item>
+        <item>Procesor AMD Ryzen 7 5800X, karta graficzna NVIDIA RTX 4070, 32 GB RAM, dysk SSD NVMe 1 TB.</item>
+        <item>Procesor AMD Ryzen 9 7950X, karta graficzna NVIDIA RTX 4080, 64 GB RAM, dysk SSD NVMe 4 TB.</item>
+    </string-array>
+
+</resources>
